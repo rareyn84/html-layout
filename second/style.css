@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+.column {
+	height: 100vh;
+	width: 30%;
+	float: left;
+}
+
+#left {
+	background-color: #4A90E2;
+}
+
+#middle {
+	background-color: #50E3C2;
+}
+
+#right {
+	background-color: #B8E986;
+	padding-top: calc(100vh - 300px);
+}
+
+.image {
+	background-color: red;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	line-height: 300px;
+	height: 300px;
+	width: 100%;
+
+}

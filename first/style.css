@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+	
+}
+
+header {
+	background-color: #4A98E2;
+	width: 30%;
+	height: 100vh;
+	float: left;
+}
+
+.container {
+	background-color: #50E3C2;
+	width: 30%;
+	height: 100vh;
+	float: left;
+}
+
+footer {
+	background-color: #B8E986;
+	width: 30%;
+	height: 70vh;
+	float: left;
+}
+
+.img {
+	background-color: red;
+	float: right;
+	height: 30%;
+	width: 30%;
+	color: white;
+	font-size: 20px;
+	line-height: 70vh;
+}
